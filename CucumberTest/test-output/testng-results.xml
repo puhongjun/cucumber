@@ -11,6 +11,18 @@
       <![CDATA[<div "scenario">场景: 使用正常账号登录163</div>]]>
     </line>
     <line>
+      <![CDATA[<div "result">当 打开163网站 (passed : 16s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">并且 在账号输入框输入&quot;123123&quot;,密码输入框中输入&quot;456456&quot;,点击登录按钮 (passed : 6s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">那么 关闭浏览器 (passed : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "scenario">场景: 使用正常账号登录163</div>]]>
+    </line>
+    <line>
       <![CDATA[<div "result">当 打开163网站 (passed : 4s)</div>]]>
     </line>
     <line>
@@ -19,28 +31,16 @@
     <line>
       <![CDATA[<div "result">那么 关闭浏览器 (passed : 0s)</div>]]>
     </line>
-    <line>
-      <![CDATA[<div "scenario">场景: 使用正常账号登录163</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">当 打开163网站 (passed : 3s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">并且 在账号输入框输入&quot;123123&quot;,密码输入框中输入&quot;456456&quot;,点击登录按钮 (passed : 1s)</div>]]>
-    </line>
-    <line>
-      <![CDATA[<div "result">那么 关闭浏览器 (passed : 0s)</div>]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12066" started-at="2019-02-06T08:17:19Z" finished-at="2019-02-06T08:17:31Z">
+  <suite name="Default suite" duration-ms="32348" started-at="2019-02-06T09:20:32Z" finished-at="2019-02-06T09:21:05Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.Run.run@39aeed2f]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="12066" started-at="2019-02-06T08:17:19Z" finished-at="2019-02-06T08:17:31Z">
+    <test name="Default test" duration-ms="32348" started-at="2019-02-06T09:20:32Z" finished-at="2019-02-06T09:21:05Z">
       <class name="com.Run.run">
-        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.Run.run@39aeed2f]" name="run_cukes" duration-ms="12050" started-at="2019-02-06T16:17:19Z" description="Runs Cucumber Features" finished-at="2019-02-06T16:17:31Z">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.Run.run@39aeed2f]" name="run_cukes" duration-ms="32265" started-at="2019-02-06T17:20:33Z" description="Runs Cucumber Features" finished-at="2019-02-06T17:21:05Z">
           <reporter-output>
             <line>
               <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;features&#x2F;BDD.feature</div>]]>
@@ -52,19 +52,19 @@
               <![CDATA[<div "scenario">场景: 使用正常账号登录163</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">当 打开163网站 (passed : 4s)</div>]]>
+              <![CDATA[<div "result">当 打开163网站 (passed : 16s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">并且 在账号输入框输入&quot;123123&quot;,密码输入框中输入&quot;456456&quot;,点击登录按钮 (passed : 1s)</div>]]>
+              <![CDATA[<div "result">并且 在账号输入框输入&quot;123123&quot;,密码输入框中输入&quot;456456&quot;,点击登录按钮 (passed : 6s)</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">那么 关闭浏览器 (passed : 0s)</div>]]>
+              <![CDATA[<div "result">那么 关闭浏览器 (passed : 1s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "scenario">场景: 使用正常账号登录163</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">当 打开163网站 (passed : 3s)</div>]]>
+              <![CDATA[<div "result">当 打开163网站 (passed : 4s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">并且 在账号输入框输入&quot;123123&quot;,密码输入框中输入&quot;456456&quot;,点击登录按钮 (passed : 1s)</div>]]>
