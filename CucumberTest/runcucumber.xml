@@ -3,7 +3,7 @@
 <suite name="Default suite">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.Run.run"/>
+      <class name="com.Run.RunStep"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->

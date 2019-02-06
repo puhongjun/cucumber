@@ -15,6 +15,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		glue={"com.steps"}
 )
 
-public class run extends AbstractTestNGCucumberTests{
+public class RunStep extends AbstractTestNGCucumberTests{
 
 }
