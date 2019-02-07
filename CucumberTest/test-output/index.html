@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>E:\GitRepository\CucumberTest\runcucumber.xml</span>
+                    <span>C:\Users\Administrator.USER-20180602NR\AppData\Local\Temp\testng-eclipse--1214786745\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Run.RunStep" hash-for-method="run_cukes">run_cukes</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.Run.runStep" hash-for-method="run_cukes">run_cukes</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,7 +119,7 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.Run.RunStep</span>
+              <span class="class-name">com.Run.runStep</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -136,7 +136,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\GitRepository\CucumberTest\runcucumber.xml</span>
+            <span class="header-content">C:\Users\Administrator.USER-20180602NR\AppData\Local\Temp\testng-eclipse--1214786745\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +145,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.Run.RunStep&quot;/&gt;
+      &lt;class name=&quot;com.Run.runStep&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -196,13 +196,13 @@ data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'run_cukes')
-data.setCell(0, 2, 'com.Run.RunStep')
-data.setCell(0, 3, 402);
+data.setCell(0, 2, 'com.Run.runStep')
+data.setCell(0, 3, 7148);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 402 ms</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -218,14 +218,11 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output"><div "featureFile">Feature File: src&#x2F;test&#x2F;features&#x2F;BDD.feature</div></span>
                 <span class="reporter-method-output"><div "feature">功能: 登录163邮箱</div></span>
-                <span class="reporter-method-output"><div "scenario">场景: 使用正常账号登录163</div></span>
-                <span class="reporter-method-output"><div "result">当 打开163网站 (undefined)</div></span>
-                <span class="reporter-method-output"><div "result">并且 在账号输入框输入&quot;123123&quot;,密码输入框中输入&quot;456456&quot;,点击登录按钮 (undefined)</div></span>
-                <span class="reporter-method-output"><div "result">那么 关闭浏览器 (undefined)</div></span>
-                <span class="reporter-method-output"><div "scenario">场景: 使用正常账号登录163</div></span>
-                <span class="reporter-method-output"><div "result">当 打开163网站 (undefined)</div></span>
-                <span class="reporter-method-output"><div "result">并且 在账号输入框输入&quot;123123&quot;,密码输入框中输入&quot;456456&quot;,点击登录按钮 (undefined)</div></span>
-                <span class="reporter-method-output"><div "result">那么 关闭浏览器 (undefined)</div></span>
+                <span class="reporter-method-output"><div "scenarioOutline">场景大纲: 使用多个账号登录163</div></span>
+                <span class="reporter-method-output"><div "scenario">场景大纲: 使用多个账号登录163</div></span>
+                <span class="reporter-method-output"><div "result">当 打开163网站 (passed : 4s)</div></span>
+                <span class="reporter-method-output"><div "result">并且 在账号输入框输入&quot;&lt;Uname&gt;&quot;,密码输入框中输入&quot;&lt;Pwd&gt;&quot;,点击登录按钮 (passed : 1s)</div></span>
+                <span class="reporter-method-output"><div "result">那么 关闭浏览器 (passed : 0s)</div></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -243,7 +240,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.Run.RunStep</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.Run.runStep</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">run_cukes</span>
                 <span class="method-start">0 ms</span>

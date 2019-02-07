@@ -60,7 +60,7 @@
     	<version>2.19.1</version>
     		<configuration>
     			<suiteXmlFiles>
-    				<suiteXmlFile>./runcucumber.xml</suiteXmlFile>
+    				<suiteXmlFile>./runtestng.xml</suiteXmlFile>
     			</suiteXmlFiles>
     		</configuration>
   		</plugin>
