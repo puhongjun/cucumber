@@ -14,7 +14,7 @@
       <![CDATA[<div "scenario">场景大纲: 使用多个账号登录163</div>]]>
     </line>
     <line>
-      <![CDATA[<div "result">当 打开163网站 (passed : 4s)</div>]]>
+      <![CDATA[<div "result">当 打开163网站 (passed : 7s)</div>]]>
     </line>
     <line>
       <![CDATA[<div "result">并且 在账号输入框输入&quot;&lt;Uname&gt;&quot;,密码输入框中输入&quot;&lt;Pwd&gt;&quot;,点击登录按钮 (passed : 1s)</div>]]>
@@ -23,15 +23,15 @@
       <![CDATA[<div "result">那么 关闭浏览器 (passed : 0s)</div>]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7163" started-at="2019-02-07T03:24:14Z" finished-at="2019-02-07T03:24:21Z">
+  <suite name="Default suite" duration-ms="10085" started-at="2019-02-07T03:47:53Z" finished-at="2019-02-07T03:48:03Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.run_cukes()[pri:0, instance:com.Run.runStep@18be83e4]" name="run_cukes" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="7163" started-at="2019-02-07T03:24:14Z" finished-at="2019-02-07T03:24:21Z">
+    <test name="Default test" duration-ms="10085" started-at="2019-02-07T03:47:53Z" finished-at="2019-02-07T03:48:03Z">
       <class name="com.Run.runStep">
-        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.Run.runStep@18be83e4]" name="run_cukes" duration-ms="7148" started-at="2019-02-07T11:24:14Z" description="Runs Cucumber Features" finished-at="2019-02-07T11:24:21Z">
+        <test-method status="PASS" signature="run_cukes()[pri:0, instance:com.Run.runStep@18be83e4]" name="run_cukes" duration-ms="10069" started-at="2019-02-07T11:47:53Z" description="Runs Cucumber Features" finished-at="2019-02-07T11:48:03Z">
           <reporter-output>
             <line>
               <![CDATA[<div "featureFile">Feature File: src&#x2F;test&#x2F;features&#x2F;BDD.feature</div>]]>
@@ -46,7 +46,7 @@
               <![CDATA[<div "scenario">场景大纲: 使用多个账号登录163</div>]]>
             </line>
             <line>
-              <![CDATA[<div "result">当 打开163网站 (passed : 4s)</div>]]>
+              <![CDATA[<div "result">当 打开163网站 (passed : 7s)</div>]]>
             </line>
             <line>
               <![CDATA[<div "result">并且 在账号输入框输入&quot;&lt;Uname&gt;&quot;,密码输入框中输入&quot;&lt;Pwd&gt;&quot;,点击登录按钮 (passed : 1s)</div>]]>
